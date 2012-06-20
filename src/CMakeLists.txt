@@ -14,7 +14,7 @@ endif (WIN32)
 
 add_library (ufacerecognition MODULE ufacerecognition.cpp)
 
-target_link_libraries (ufacerecognition ${OpenCV_LIBS} ${URBI_LIBRARIES} ${Boost_LIBRARIES})
+target_link_libraries (ufacerecognition pittpatt_sdk  pittpatt_raw_image_io  pittpatt_raw_image pittpatt_video_io ${OpenCV_LIBS} ${URBI_LIBRARIES} ${Boost_LIBRARIES})
 
 set_target_properties (ufacerecognition PROPERTIES
   PREFIX "")
