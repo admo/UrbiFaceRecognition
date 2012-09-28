@@ -6,9 +6,9 @@ u.train(c.image, "Adam Oleksy");
 #include <string>
 #include <iostream>
 
-#include <pittpatt_sdk.h>
-#include <pittpatt_license.h>
-#include <pittpatt_raw_image_io.h>
+#include <pittpatt/pittpatt_sdk.h>
+#include <pittpatt/pittpatt_license.h>
+#include <pittpatt/pittpatt_raw_image_io.h>
 
 #include <urbi/uobject.hh>
 
